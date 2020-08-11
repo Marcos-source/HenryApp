@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w ./tests/**/*.spec.js",
+    "start": "nodemon ./src/index.js",
+    "tables": "bash ./src/data/tables.sh",
+    "lint": "eslint '**/*.js'",
+    "fix": "eslint --fix --ext .js,.jsx ."
+  },
+  "author": "Antonio Tralice <toni@soyhenry.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.3.0",
+    "pg-native": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "install": "^0.13.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "npm": "^6.14.6",
+    "supertest": "^4.0.2",
+    "supertest-session": "^4.0.0"
+  }
+}

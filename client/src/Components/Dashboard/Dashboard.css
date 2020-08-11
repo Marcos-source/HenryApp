@@ -1,0 +1,18 @@
+.group {
+  display: inline;
+}
+
+.dropdown,
+.btn,
+.button-cell {
+  cursor: pointer;
+}
+
+.conten{
+  padding-right: 15px;
+}
+
+.contenPrin{
+  display: inline;
+  justify-content: center;
+}
